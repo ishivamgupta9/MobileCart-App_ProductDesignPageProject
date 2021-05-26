@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[0]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
+
                     intent.putExtra("title", mTitle[0]);
                     intent.putExtra("subtitle", msubtitle[0]);
-                    // also put your position
+
                     intent.putExtra("description", description[0]);
                     intent.putExtra("price", mprice[0]);
                     intent.putExtra("mexpiry",mexpirydate[0]);
@@ -71,150 +71,120 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (position == 1) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
+
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[1]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
+
                     intent.putExtra("title", mTitle[1]);
                     intent.putExtra("subtitle", msubtitle[1]);
-                    // also put your position
+
                     intent.putExtra("description", description[1]);
                     intent.putExtra("price", mprice[1]);
                     intent.putExtra("mexpiry",mexpirydate[1]);
-                    // also put your position
+
                     intent.putExtra("position", ""+1);
                     startActivity(intent);
                 }
                 if (position == 2) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[2]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[2]);
                     intent.putExtra("subtitle", msubtitle[2]);
-                    // also put your position
                     intent.putExtra("description", description[2]);
                     intent.putExtra("price", mprice[2]);
                     intent.putExtra("mexpiry",mexpirydate[2]);
-                    // also put your position
                     intent.putExtra("position", ""+2);
                     startActivity(intent);
                 }
                 if (position == 3) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
+
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[3]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[3]);
                     intent.putExtra("subtitle", msubtitle[3]);
-                    // also put your position
                     intent.putExtra("description", description[3]);
                     intent.putExtra("price", mprice[3]);
                     intent.putExtra("mexpiry",mexpirydate[3]);
-                    // also put your position
                     intent.putExtra("position", ""+3);
                     startActivity(intent);
                 }
                 if (position == 4) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[4]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[4]);
                     intent.putExtra("subtitle", msubtitle[4]);
-                    // also put your position
                     intent.putExtra("description", description[4]);
                     intent.putExtra("price", mprice[4]);
                     intent.putExtra("mexpiry",mexpirydate[4]);
-                    // also put your position
                     intent.putExtra("position", ""+4);
                     startActivity(intent);
                 }
 
                 if (position == 5) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[5]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[5]);
                     intent.putExtra("subtitle", msubtitle[5]);
-                    // also put your position
                     intent.putExtra("description", description[5]);
                     intent.putExtra("price", mprice[5]);
                     intent.putExtra("mexpiry",mexpirydate[5]);
-                    // also put your position
                     intent.putExtra("position", ""+5);
                     startActivity(intent);
                 }
                 if (position == 6) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[6]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[6]);
                     intent.putExtra("subtitle", msubtitle[6]);
-                    // also put your position
                     intent.putExtra("description", description[6]);
                     intent.putExtra("price", mprice[6]);
                     intent.putExtra("mexpiry",mexpirydate[6]);
-                    // also put your position
                     intent.putExtra("position", ""+6);
                     startActivity(intent);
                 }
                 if (position == 7) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[7]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[7]);
                     intent.putExtra("subtitle", msubtitle[7]);
-                    // also put your position
                     intent.putExtra("description", description[7]);
                     intent.putExtra("price", mprice[7]);
                     intent.putExtra("mexpiry",mexpirydate[7]);
-                    // also put your position
                     intent.putExtra("position", ""+7);
                     startActivity(intent);
                 }
                 if (position == 8) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[8]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[8]);
                     intent.putExtra("subtitle", msubtitle[8]);
-                    // also put your position
                     intent.putExtra("description", description[8]);
                     intent.putExtra("price", mprice[8]);
                     intent.putExtra("mexpiry",mexpirydate[8]);
-                    // also put your position
                     intent.putExtra("position", ""+8);
                     startActivity(intent);
                 }if (position == 9) {
                     Intent intent = new Intent(getApplicationContext(), AnotherActivity.class);
-                    // this intent put our 0 index image to another activity
                     Bundle bundle = new Bundle();
                     bundle.putInt("image", images[9]);
                     intent.putExtras(bundle);
-                    // now put title and description to another activity
                     intent.putExtra("title", mTitle[9]);
                     intent.putExtra("subtitle", msubtitle[9]);
-                    // also put your position
                     intent.putExtra("description", description[9]);
                     intent.putExtra("price", mprice[9]);
                     intent.putExtra("mexpiry",mexpirydate[9]);
