@@ -25,7 +25,7 @@ public class AnotherActivity extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
-            // aslo set in menifest
+
         }
 
         imageView = findViewById(R.id.another_imageView);
@@ -234,10 +234,5 @@ public class AnotherActivity extends AppCompatActivity {
 
     }
 
-    // now check it
-    // so friends this works perfectly..
-    // friedns i have made some changes with list view, i hope you guys like these change with listview
-    // first add card library in build.gradle
-    // now move in row xml
-    // now in activity main.xml
+
 }
